@@ -6,18 +6,20 @@
     <description>Recent content in Portfolios on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sevocrear.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Case Study One</title>
+      <title>MOEX Telegram Bot</title>
       <link>https://sevocrear.github.io/portfolio/case-study-one/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sevocrear.github.io/portfolio/case-study-one/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+      <description>I decided to use *.npy file in order to store users IDs and max value of the stock they&amp;rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users.
+The example result of the bot output you can see above.
+Also, it should be mentioned that the bot could be deployed on the server in order to be fully automated.</description>
     </item>
     
   </channel>

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Case Study One</title>
+  <title>MOEX Telegram Bot</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -123,23 +123,23 @@
     <div class="row mb-5">
       <div class="col-lg-10 offset-lg-1 text-center">
         <div class="case-details-title">
-          <h1>Case Study One</h1>
+          <h1>MOEX Telegram Bot</h1>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor.
+          It was needed to program telegram bot which will take some stock info rom moex.ru, extract it and output to the subscribed users each day at pre-defined time
         </p>
         <div class="case-details-info">
           <div class="case-details-info-item">
             <h5 class="text-light">Client</h5>
-            <p>Edward Furlong</p>
+            <p>Vladislav Z.</p>
           </div>
           <div class="case-details-info-item">
             <h5>Service</h5>
-            <p>Development, UX Design</p>
+            <p>Telegram Bot</p>
           </div>
           <div class="case-details-info-item">
             <h5>Date</h5>
-            <p>July 13, 2020</p>
+            <p>December 15, 2020</p>
           </div>
         </div>
         <div class="row mb-5">
@@ -147,7 +147,7 @@
             <div class="case-details-service">
               <h3>Challenge</h3>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                Use Python language and TelegramBotAPI so users could use the bot in order to know top 10 volatile stock of the day and their trade volumes.
               </p>
             </div>
           </div>
@@ -155,16 +155,17 @@
             <div class="case-details-service">
               <h3>Solution</h3>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+                telebot, matplotlib and pandas libraries were used in order to do create the bot. Also, multithreading was implemented in order to diverge interaction with the user and auto sending stock info to all the users.
               </p>
             </div>
           </div>
         </div>
         <div class="case-details-thumb mb-5">
-          <img src="https://sevocrear.github.io/images/portfolio/portfolio-1.png" alt="case-details" />
+          <img src="https://sevocrear.github.io/images/portfolio/bot_MOEX.png" alt="case-details" />
         </div>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<p>Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <p>I decided to use *.npy file in order to store users IDs and max value of the stock they&rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users.</p>
+<p>The example result of the bot output you can see above.</p>
+<p>Also, it should be mentioned that the bot could be deployed on the server in order to be fully automated.</p>
 
       </div>
     </div>
