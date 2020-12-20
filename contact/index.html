@@ -211,7 +211,7 @@
           <h3>Contact Form</h3>
         </div>
         <div class="contact-form-input">
-          <form id="contact-form" action="https://formspree.io/f/mzbkkzbe" method="POST">
+          <form id="contact-form" action="https://formspree.io/f/mzbkkzbe" method="POST" enctype="multipart/form-data">
 
             <div class="form-row">
 
@@ -226,6 +226,9 @@
             <div class="form-group">
               <textarea class="form-control" id="message" rows="6" name="message" placeholder="Message"></textarea>
             </div>
+
+            <label for="upload"> Your file:</label>
+            <input type="file" name="upload">
 
             <div class="form-group">
               <div class="form-check small">
