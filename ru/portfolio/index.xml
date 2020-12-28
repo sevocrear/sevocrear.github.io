@@ -17,9 +17,9 @@
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/</guid>
-      <description>I decided to use *.npy file in order to store users IDs and max value of the stock they&amp;rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users.
-The example result of the bot output you can see above.
-Also, it should be mentioned that the bot could be deployed on the server in order to be fully automated.</description>
+      <description>Для хранения пользовательских данных (ID) я решил использовать файл * .npy. Также туда заносится индивидуальная максимальная стоимость акций, которые пользователи хотели бы видеть в чате с ботом. Таким образом, идея заключалась в том, чтобы ограничить цену акций для определенных пользователей.
+Пример результата вывода бота вы можете увидеть выше.
+Также следует отметить, что бот может быть развернут на сервере для полной автоматизации.</description>
     </item>
     
   </channel>
