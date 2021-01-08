@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Python: Функции Map и Filter</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="https://sevocrear.github.io/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="https://sevocrear.github.io/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://sevocrear.github.io/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="https://sevocrear.github.io/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="https://sevocrear.github.io/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://sevocrear.github.io/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://sevocrear.github.io/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZPCD5E5NB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RZPCD5E5NB');
+  </script>
+  
+</head>
+
+<body>
+  
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="https://sevocrear.github.io/ru" class="navbar-brand">
+      <img src="https://sevocrear.github.io/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="/ru#home"
+            class="nav-link text-dark text-sm-center p-2 ">Главная</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/ru#about"
+            class="nav-link text-dark text-sm-center p-2 ">Обо мне</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/ru#service"
+            class="nav-link text-dark text-sm-center p-2 ">Услуги</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/ru#portfolio"
+            class="nav-link text-dark text-sm-center p-2 ">Портфолио</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/ru#resume"
+            class="nav-link text-dark text-sm-center p-2 ">Резюме</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/ru#blog"
+            class="nav-link text-dark text-sm-center p-2 ">Блог</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/ru/contact"
+            class="nav-link text-dark text-sm-center p-2 ">Контакты</a>
+        </li>
+        
+        
+<nav aria-label="Language switcher">
+  <ul>
+    
+    
+      
+    
+    <li><span aria-label="Russian">Russian</span>
+      
+      
+      <ul aria-labelledby="dropdown-title">
+        
+        <li><a title="English" href="https://sevocrear.github.io/en/blog/python-map-filter-functions/" aria-label="English">English</a></li>
+      </ul>
+        
+    </li>
+  </ul>
+</nav>
+ 
+      </ul>
+      <div class="navbar-nav">
+        <a href="https://sevocrear.github.io/ru/contact" class="btn btn-primary btn-zoom hire_button">Нанять меня</a>
+      </div>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">Python: Функции Map и Filter</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href=/ru>Домой</a></li>
+            <li class="breadcrumb-item"><a href=https://sevocrear.github.io/ru/blog>Все посты</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Python: Функции Map и Filter</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section singleBlog">
+  <div class="svg-img">
+      <img src=https://sevocrear.github.io/images/hero/figure-svg.svg alt="">
+  </div>
+  <div class="animate-shape">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+          <defs>
+              <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#f1f6f9" />
+                  <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+              </linearGradient>
+          </defs>
+          <g data-name="blob-shape (3)">
+              <path class="blob" fill="url(#d)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+          </g>
+      </svg>
+  </div>
+  <div class="animate-pattern">
+      <img src=https://sevocrear.github.io/images/service/background-pattern.svg alt="background-shape">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="singleBlog__feature">
+                  <img src=https://sevocrear.github.io/ alt="feature-image">
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="singleBlog__content">
+                  <p>Это первый мой пост в блоге, который я пишу. И я сразу хотел бы сказать, зачем и почему я вообще решил вести блог.</p>
+<p>Я приведу пример. Представьте, что Вам нужно найти какую-либо информацию в интернете, литературных источниках и пр. Как правило, Вы не будете ограничиваться лишь одним источником - и всё для того, чтобы подтвердить ее истинность и посмотреть на вопрос с разных сторон. И Вы, возможно конспектируете.</p>
+<p>Идея этого блога для меня - это конспектирование той информации, что я нахожу в интернете во время учебы, выполнения проектов и так далее. Это та информация, которую я нахожу полезной и которая может пригодиться в будущем.</p>
+<p>И я надеюсь, что она будет полезна и другим.</p>
+<p>Ну что же, приступим&hellip;</p>
+<h2 id="map-функция">map() функция</h2>
+<p>Встроенная в Python функция map() используется для применения какой-либо выбранной Вами функции к каждому элементу итерируемого объекта (например, списка или словаря) и возврата нового итератора для получения результатов. Функция map() возвращает объект map (итератор). Также можно передать объект map в функцию list() или другой тип последовательности для создания итерируемого объекта.</p>
+<p>Синтаксис:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(function, iterable, [iterable_2, iterable_3, <span style="color:#f92672">...</span>])
+</code></pre></div><p>Синтаксис map() с функцией lambda выглядит следующим образом:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(<span style="color:#66d9ef">lambda</span> item: item[] expression, iterable)
+</code></pre></div><p>К примеру, представим следующую программу:</p>
+<p>У нас есть два списка чисел.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+b <span style="color:#f92672">=</span> [<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">15</span>,<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">1</span>]
+</code></pre></div><p>И мы хотим суммировать эти списки, причем применяя к каждому элементу первого списка операцию *2, а к каждому элементу второго списка - /2.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">summed_numbers <span style="color:#f92672">=</span> list(map(<span style="color:#66d9ef">lambda</span> x,y:x<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> y<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, a, b))
+<span style="color:#66d9ef">print</span>(summed_numbers)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span> OUTPUT <span style="color:#f92672">---</span>
+[<span style="color:#ae81ff">3.5</span>, <span style="color:#ae81ff">11.5</span>, <span style="color:#ae81ff">11.0</span>, <span style="color:#ae81ff">18.0</span>, <span style="color:#ae81ff">10.5</span>]
+</code></pre></div><h2 id="filter-функция">filter() функция</h2>
+<p>Встроенная функция <code>filter() </code> также является весьма полезной. Что же она делает?</p>
+<p>Данная функция принимает лямбда-функцию вместе со списком как аргументы. Синтаксис выглядит следующим образом:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">filter(object, iterable)
+</code></pre></div><p><code>object</code> должен быть лямбда-функцией, которая возвращает булево значение (0 или 1). Данная функция вызывается для каждого элемента списка <code>iterable</code>. И результат будет либо &ldquo;Ложь&rdquo;, либо &ldquo;Истина&rdquo; для каждого элемента.</p>
+<p>Лямбда-функция возвращает список тех элементов, которые возвратили &ldquo;Истину&rdquo; после применения лямбда-функции.</p>
+<p>К примеру, представим следующую программу:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># дан список чисел</span>
+numbers_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">2</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">18</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">12</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>]
+
+<span style="color:#75715e"># Оставим в списке только те числа, которые больше 7</span>
+filtered_list <span style="color:#f92672">=</span> list(filter(<span style="color:#66d9ef">lambda</span> num: (num <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">7</span>), numbers_list))
+
+<span style="color:#66d9ef">print</span>(filtered_list)
+</code></pre></div><p>Результат выполнения программы:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span>OUTPUT<span style="color:#f92672">---</span>
+[<span style="color:#ae81ff">18</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>]
+</code></pre></div><p>На примере обзора таких простых программ с применением функций <code>map()</code> и <code>filter()</code> понятно, что эти функции могут быть действительно полезны в некоторых случаях, когда нужно что-то фильтровать или же применять какую-то одну операцию к целому массиву данных.</p>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Свяжитесь со мной</span>
+						<h2 class="mb-0">Давайте Начнем Ваш Проект!</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="https://sevocrear.github.io/ru/contact">Связаться</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="https://sevocrear.github.io/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_sitemap mb-5">
+					<h4 class="base-font">Sitemap</h4>
+					<ul class="unstyle-list small">
+						
+						
+						<li class="mb-2"><a class="text-light" href="/ru/#about">Обо мне</a></li>
+						
+						<li class="mb-2"><a class="text-light" href="/ru/#blog">Последняя статья</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:"><span class="fa-li"><i
+										class="fa fa-phone"></i></span></a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:sevocrear@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>sevocrear@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>420500 Иннополис, Россия</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>All right reserved copyright © Portio 2020</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://vk.com/sevocrear"><i
+									class="fa fa-vk"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/in/ilya-sevostyanov-7abb671b0"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/sevocrear"><i
+									class="fa fa-git"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVD82A8IiQA-F2AeMAacdMtYO_Con5Hy0&libraries=geometry"></script>
+<script src="https://sevocrear.github.io/plugins/jQuery/jquery.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/slick/slick.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/slick/slick.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="https://sevocrear.github.io/plugins/masonry/masonry.min.js"></script>
+
+<script src="https://sevocrear.github.io/js/form-handler.min.js"></script>
+
+<script src="https://sevocrear.github.io/js/script.min.js"></script>
+</body>
+
+</html>

@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sevocrear.github.io/en/blog/python-map-filter-functions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://sevocrear.github.io/ru/blog/python-map-filter-functions/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sevocrear.github.io/ru/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sevocrear.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://sevocrear.github.io/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sevocrear.github.io/ru/blog/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sevocrear.github.io/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://sevocrear.github.io/ru/blog/"
+                />
+  </url>
+  
+  <url>
     <loc>https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -29,36 +74,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/portfolio/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sevocrear.github.io/ru/</loc>
-    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sevocrear.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://sevocrear.github.io/ru/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://sevocrear.github.io/ru/blog/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sevocrear.github.io/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://sevocrear.github.io/ru/blog/"
                 />
   </url>
   
