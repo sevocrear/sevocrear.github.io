@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1608821065 "/home/sevocrear/Documents/website/sevocrear_bio_site/static/files/CV/main.tex" "/home/sevocrear/Documents/website/sevocrear_bio_site/static/files/CV/main.pdf" "main" 1608821065
+["pdflatex"] 1611317252 "/home/sevocrear/Documents/website/sevocrear_bio_site/static/ru/files/CV/main.tex" "/home/sevocrear/Documents/website/sevocrear_bio_site/static/ru/files/CV/main.pdf" "main" 1611317252
   "/etc/texmf/web2c/texmf.cnf" 1606736272 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/files/CV/main.aux" 1608821065 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/files/CV/main.tex" 1608821064 10177 df3dce69b29f510ac2c931f8f2289b0e ""
+  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/ru/files/CV/main.aux" 1611317252 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/ru/files/CV/main.tex" 1611317251 10505 a23382b8cdcc3cddbf82a736db28bd4e ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1573336935 6902 30fdaf7dc5636b8e3afa306210c45cae ""
   "/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
@@ -21,9 +21,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1606736331 8269028 22272dd08af424ee212812ca4a98c044 ""
-  "friggeri-cv_reccius-experiment.cls" 1608487352 11373 197d626cde7c3731ce881e3dcd518512 ""
-  "main.tex" 1608821064 10177 df3dce69b29f510ac2c931f8f2289b0e ""
+  "friggeri-cv_reccius-experiment.cls" 1609572924 11373 197d626cde7c3731ce881e3dcd518512 ""
+  "main.tex" 1611317251 10505 a23382b8cdcc3cddbf82a736db28bd4e ""
   (generated)
-  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/files/CV/main.pdf"
+  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/ru/files/CV/main.pdf"
   "main.log"
-  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/files/CV/main.log"
+  "/home/sevocrear/Documents/website/sevocrear_bio_site/static/ru/files/CV/main.log"
