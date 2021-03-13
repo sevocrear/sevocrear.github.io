@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/blog/python-map-filter-functions/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/blog/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/blog/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/portfolio/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/portfolio/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/blog/markdown-formatting-demo/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/blog/markdown-formatting-demo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -104,9 +91,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -118,9 +103,7 @@
                 hreflang="ru"
                 href="https://sevocrear.github.io/ru/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sevocrear.github.io/ru/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -133,5 +116,4 @@
                 href="https://sevocrear.github.io/ru/contact/"
                 />
   </url>
-  
 </urlset>

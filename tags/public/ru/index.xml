@@ -6,11 +6,7 @@
     <description>Recent content on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sevocrear.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python: Функции Map и Filter</title>
       <link>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</link>

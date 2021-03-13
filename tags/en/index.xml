@@ -27,7 +27,7 @@ Let me give you an example. Imagine that you need to find any information on the
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sevocrear.github.io/en/portfolio/telegram_bot_moex/</guid>
-      <description>I decided to use *.npy file in order to store users IDs and max value of the stock they&amp;rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users.
+      <description>I decided to use *.npy file in order to store users IDs and max value of the stock they&amp;rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users. After that, MySQL could be implemented.
 The example result of the bot output you can see above.
 Also, it should be mentioned that the bot could be deployed on the server in order to be fully automated.</description>
     </item>
