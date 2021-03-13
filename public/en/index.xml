@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sevocrear</title>
+    <link>https://sevocrear.github.io/en/</link>
+    <description>Recent content on sevocrear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python: Map and Filter functions</title>
+      <link>https://sevocrear.github.io/en/blog/python-map-filter-functions/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/en/blog/python-map-filter-functions/</guid>
+      <description>Well, it&amp;rsquo;s my first blog post I&amp;rsquo;m writing myself. And I would immediately like to say why I decided to blog at all.
+Let me give you an example. Imagine that you need to find any information on the Internet, library sources, etc. Often, you don&amp;rsquo;t limit yourself to just one source of information because you need to make sure that it is totally true and to look at the issue from different points of view.</description>
+    </item>
+    
+    <item>
+      <title>MOEX Telegram Bot</title>
+      <link>https://sevocrear.github.io/en/portfolio/telegram_bot_moex/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/en/portfolio/telegram_bot_moex/</guid>
+      <description>I decided to use *.npy file in order to store users IDs and max value of the stock they&amp;rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users. After that, MySQL could be implemented.
+The example result of the bot output you can see above.
+Also, it should be mentioned that the bot could be deployed on the server in order to be fully automated.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Formatting Demo</title>
+      <link>https://sevocrear.github.io/en/blog/markdown-formatting-demo/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/en/blog/markdown-formatting-demo/</guid>
+      <description>This example Markdown file compliments of markdown-it.github.io
+ h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules    Typographic replacements Enable typographer option to see result.
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
+!!!!!! ???? ,, &amp;ndash; &amp;mdash;
+&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;
+Emphasis This is bold text
+This is bold text
+This is italic text</description>
+    </item>
+    
+  </channel>
+</rss>

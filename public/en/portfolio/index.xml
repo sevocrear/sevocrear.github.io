@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on sevocrear</title>
+    <link>https://sevocrear.github.io/en/portfolio/</link>
+    <description>Recent content in Portfolios on sevocrear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MOEX Telegram Bot</title>
+      <link>https://sevocrear.github.io/en/portfolio/telegram_bot_moex/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/en/portfolio/telegram_bot_moex/</guid>
+      <description>I decided to use *.npy file in order to store users IDs and max value of the stock they&amp;rsquo;d like to see in the chat. So, the idea was to constrain the price of the stocks for certain users. After that, MySQL could be implemented.
+The example result of the bot output you can see above.
+Also, it should be mentioned that the bot could be deployed on the server in order to be fully automated.</description>
+    </item>
+    
+  </channel>
+</rss>

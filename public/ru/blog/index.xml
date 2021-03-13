@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Недавние публикации on sevocrear</title>
+    <link>https://sevocrear.github.io/ru/blog/</link>
+    <description>Recent content in Недавние публикации on sevocrear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python: Функции Map и Filter</title>
+      <link>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</guid>
+      <description>Это первый мой пост в блоге, который я пишу. И я сразу хотел бы сказать, зачем и почему я вообще решил вести блог.
+Я приведу пример. Представьте, что Вам нужно найти какую-либо информацию в интернете, литературных источниках и пр. Как правило, Вы не будете ограничиваться лишь одним источником - и всё для того, чтобы подтвердить ее истинность и посмотреть на вопрос с разных сторон. И Вы, возможно конспектируете.
+Идея этого блога для меня - это конспектирование той информации, что я нахожу в интернете во время учебы, выполнения проектов и так далее.</description>
+    </item>
+    
+    <item>
+      <title>Форматирование Markdown</title>
+      <link>https://sevocrear.github.io/ru/blog/markdown-formatting-demo/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/ru/blog/markdown-formatting-demo/</guid>
+      <description>This example Markdown file compliments of markdown-it.github.io
+ h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules    Typographic replacements Enable typographer option to see result.
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
+!!!!!! ???? ,, &amp;ndash; &amp;mdash;
+&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;
+Emphasis This is bold text
+This is bold text
+This is italic text</description>
+    </item>
+    
+  </channel>
+</rss>
