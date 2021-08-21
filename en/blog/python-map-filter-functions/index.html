@@ -178,33 +178,33 @@
 <h2 id="map-function">map() function</h2>
 <p>The python&rsquo;s <code>map</code> function is used in order to apply any function you need to all the items in iterator (list, dict, e.t.c.) you put into the map function. It returns iterator object. But you can transfer it to the list() or other type of sequence.</p>
 <p>It has the following syntax:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(function, iterable, [iterable_2, iterable_3, <span style="color:#f92672">...</span>])
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(function, iterable, [iterable_2, iterable_3, <span style="color:#f92672">...</span>])
 </code></pre></div><p>or</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(<span style="color:#66d9ef">lambda</span> item: item[] expression, iterable)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(<span style="color:#66d9ef">lambda</span> item: item[] expression, iterable)
 </code></pre></div><p>(if lambda-function is used)</p>
 <p>For example, let&rsquo;s imagine next program:</p>
 <p>We have 2 lists of numbers.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
 b <span style="color:#f92672">=</span> [<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">15</span>,<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">1</span>]
 </code></pre></div><p>And we want to sum these lists by multiplying each element of the first list by two and dividing each element of the second list by two.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">summed_numbers <span style="color:#f92672">=</span> list(map(<span style="color:#66d9ef">lambda</span> x,y:x<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> y<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, a, b))
-<span style="color:#66d9ef">print</span>(summed_numbers)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span> OUTPUT <span style="color:#f92672">---</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">summed_numbers <span style="color:#f92672">=</span> list(map(<span style="color:#66d9ef">lambda</span> x,y:x<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> y<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, a, b))
+print(summed_numbers)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span> OUTPUT <span style="color:#f92672">---</span>
 [<span style="color:#ae81ff">3.5</span>, <span style="color:#ae81ff">11.5</span>, <span style="color:#ae81ff">11.0</span>, <span style="color:#ae81ff">18.0</span>, <span style="color:#ae81ff">10.5</span>]
 </code></pre></div><h2 id="filter-function">filter() function</h2>
 <p>The python&rsquo;s <code>filter()</code> function takes a lambda function together with a list as the arguments. It has the following syntax:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">filter(object, iterable)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">filter(object, iterable)
 </code></pre></div><p>The <code>object</code> here should be a lambda function which returns a boolean value. The object will be called for every item in the <code>iterable</code> to do the evaluation. The result is either a True or a False for every item. Note that the function can only take one iterable as the input.</p>
 <p>A lambda-function, along with the list to be evaluated, is passed to the filter() function. The filter() function returns a list of those elements that return True when evaluated by the lambda funtion. Consider the example given below:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># The list of numbers is given</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># The list of numbers is given</span>
 numbers_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">2</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">18</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">12</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>]
 
 <span style="color:#75715e"># We will leave only those numbers that are greater than 7</span>
 filtered_list <span style="color:#f92672">=</span> list(filter(<span style="color:#66d9ef">lambda</span> num: (num <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">7</span>), numbers_list))
 
-<span style="color:#66d9ef">print</span>(filtered_list)
+print(filtered_list)
 </code></pre></div><p>The result of the program is:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span>OUTPUT<span style="color:#f92672">---</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span>OUTPUT<span style="color:#f92672">---</span>
 [<span style="color:#ae81ff">18</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>]
 </code></pre></div><p>Based on the overview of such simple programs using the <code>map()</code> and <code>filter()</code> functions, it is clear now that these functions can be really useful in some cases when you need to filter something or apply any operation to the iterator.</p>
 

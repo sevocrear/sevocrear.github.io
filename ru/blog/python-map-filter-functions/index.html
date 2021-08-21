@@ -176,34 +176,34 @@
 <h2 id="map-функция">map() функция</h2>
 <p>Встроенная в Python функция map() используется для применения какой-либо выбранной Вами функции к каждому элементу итерируемого объекта (например, списка или словаря) и возврата нового итератора для получения результатов. Функция map() возвращает объект map (итератор). Также можно передать объект map в функцию list() или другой тип последовательности для создания итерируемого объекта.</p>
 <p>Синтаксис:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(function, iterable, [iterable_2, iterable_3, <span style="color:#f92672">...</span>])
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(function, iterable, [iterable_2, iterable_3, <span style="color:#f92672">...</span>])
 </code></pre></div><p>Синтаксис map() с функцией lambda выглядит следующим образом:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(<span style="color:#66d9ef">lambda</span> item: item[] expression, iterable)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">map(<span style="color:#66d9ef">lambda</span> item: item[] expression, iterable)
 </code></pre></div><p>К примеру, представим следующую программу:</p>
 <p>У нас есть два списка чисел.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
 b <span style="color:#f92672">=</span> [<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">15</span>,<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">1</span>]
 </code></pre></div><p>И мы хотим суммировать эти списки, причем применяя к каждому элементу первого списка операцию *2, а к каждому элементу второго списка - /2.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">summed_numbers <span style="color:#f92672">=</span> list(map(<span style="color:#66d9ef">lambda</span> x,y:x<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> y<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, a, b))
-<span style="color:#66d9ef">print</span>(summed_numbers)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span> OUTPUT <span style="color:#f92672">---</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">summed_numbers <span style="color:#f92672">=</span> list(map(<span style="color:#66d9ef">lambda</span> x,y:x<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> y<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, a, b))
+print(summed_numbers)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span> OUTPUT <span style="color:#f92672">---</span>
 [<span style="color:#ae81ff">3.5</span>, <span style="color:#ae81ff">11.5</span>, <span style="color:#ae81ff">11.0</span>, <span style="color:#ae81ff">18.0</span>, <span style="color:#ae81ff">10.5</span>]
 </code></pre></div><h2 id="filter-функция">filter() функция</h2>
 <p>Встроенная функция <code>filter() </code> также является весьма полезной. Что же она делает?</p>
 <p>Данная функция принимает лямбда-функцию вместе со списком как аргументы. Синтаксис выглядит следующим образом:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">filter(object, iterable)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">filter(object, iterable)
 </code></pre></div><p><code>object</code> должен быть лямбда-функцией, которая возвращает булево значение (0 или 1). Данная функция вызывается для каждого элемента списка <code>iterable</code>. И результат будет либо &ldquo;Ложь&rdquo;, либо &ldquo;Истина&rdquo; для каждого элемента.</p>
 <p>Лямбда-функция возвращает список тех элементов, которые возвратили &ldquo;Истину&rdquo; после применения лямбда-функции.</p>
 <p>К примеру, представим следующую программу:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># дан список чисел</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># дан список чисел</span>
 numbers_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">2</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">18</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">12</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>]
 
 <span style="color:#75715e"># Оставим в списке только те числа, которые больше 7</span>
 filtered_list <span style="color:#f92672">=</span> list(filter(<span style="color:#66d9ef">lambda</span> num: (num <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">7</span>), numbers_list))
 
-<span style="color:#66d9ef">print</span>(filtered_list)
+print(filtered_list)
 </code></pre></div><p>Результат выполнения программы:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span>OUTPUT<span style="color:#f92672">---</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">---</span>OUTPUT<span style="color:#f92672">---</span>
 [<span style="color:#ae81ff">18</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>]
 </code></pre></div><p>На примере обзора таких простых программ с применением функций <code>map()</code> и <code>filter()</code> понятно, что эти функции могут быть действительно полезны в некоторых случаях, когда нужно что-то фильтровать или же применять какую-то одну операцию к целому массиву данных.</p>
 
