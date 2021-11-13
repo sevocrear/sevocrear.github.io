@@ -6,7 +6,19 @@
     <description>Recent content in Portfolios on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как определить, спелые ли помидоры</title>
+      <link>https://sevocrear.github.io/ru/portfolio/ripe_tomatoes_detection/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/ru/portfolio/ripe_tomatoes_detection/</guid>
+      <description>Датасет был собран, используя изображения из интернета. Всего было собрано 500 изображений, на которых были помидоры. Чтобы увеличить количество изображений, была применена аугментация. Так, я увеличил картинки в 1.5 раз.
+Для аннотирования датасета использовался сервис roboflow:
+Для вывода был написан метод на языке Python и подготовлен GUI.
+Ниже Вы можете увидеть примеры работы программы:</description>
+    </item>
+    
     <item>
       <title>MOEX Telegram Бот</title>
       <link>https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/</link>
