@@ -6,7 +6,18 @@
     <description>Recent content in Portfolios on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are people wearing masks in the photo?</title>
+      <link>https://sevocrear.github.io/en/portfolio/mask_detector_23_jan_2022/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/en/portfolio/mask_detector_23_jan_2022/</guid>
+      <description>In general, I decided to do this project because I was interested in TensorFlow API, so the task is interesting at least from the learning point of view.
+So, next was done:
+ Study lots of sources, as well as videos regarding work with the TensorFlow Object Detection API, as well as the specifics of mask detection. This task could be done in two steps as well as one. Neural network selection Csv file of dataset annotations fixes Annotation error correction + dataset conversion into compatible tfrecord format Pre-trained neural network training Results analysis Experiments  The following experiments were performed:</description>
+    </item>
+    
     <item>
       <title>How to determine if tomatoes are ripe</title>
       <link>https://sevocrear.github.io/en/portfolio/ripe_tomatoes_detection/</link>
