@@ -6,17 +6,10 @@
     <description>Recent content on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Носят ли люди на фото маски?</title>
-      <link>https://sevocrear.github.io/ru/portfolio/mask_detector_23_jan_2022/</link>
-      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://sevocrear.github.io/ru/portfolio/mask_detector_23_jan_2022/</guid>
-      <description>В целом, данный проект я решился сделать, потому что мне было интересно поработать с TensorFlow API, так что задача любопытная с точки зрения обучения как минимум.
-Так, было сделано:
- Изучено множество источников, а также видео касательно работы с TensorFlow Object Detection API, а также специфику детектирования масок. Задачу эту делают как в два шага, так и в один. Выбрана нейронная сеть EfficientDet = EfficientNet + BiFPN + Box Predictor Исправлен csv файл аннотаций датасета Исправление ошибок аннотаций + конвертирования датасета совместимый формат tfrecord Обучение предтренированной нейронной сети Анализ результатов Эксперименты  Были проведены следующие эксперименты:</description>
-    </item>
+    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sevocrear.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Как определить, спелые ли помидоры</title>

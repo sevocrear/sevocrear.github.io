@@ -25,16 +25,6 @@
   <link rel="shortcut icon" href="https://sevocrear.github.io/images/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="https://sevocrear.github.io/images/favicon.png" type="image/x-icon" />
   
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZPCD5E5NB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-RZPCD5E5NB');
-  </script>
-  
 </head>
 
 <body>
@@ -90,7 +80,7 @@
         </li>
         
         
-<nav class="fixed-top">
+<nav aria-label="Language switcher">
   <ul>
     
     
@@ -192,9 +182,10 @@
               <img src="https://sevocrear.github.io/images/contact/phone.svg" alt="phone" />
             </div>
           </div>
-          <h4>Почта</h4>
+          <h4>Контакты</h4>
           <p>
             <a href="mailto:sevocrear@gmail.com">sevocrear@gmail.com</a>
+            <a href="tg://resolve?domain=sevocrear">sevocrear </a>
           </p>
 
         </div>
@@ -223,57 +214,6 @@
   </div>
 </section>
 
-<section class="contact-form">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="contact-form-title">
-          <h3>Контактная Форма</h3>
-        </div>
-        <div class="contact-form-input">
-          <form id="contact-form" action="https://formspree.io/f/mzbkkzbe" accept-charset="utf-8" method="POST" enctype="multipart/form-data">
-
-            <div class="form-row">
-
-              <div class="form-group col-md-6 pr-3">
-                <input type="text" class="form-control" name="Name" placeholder="Имя" required />
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" placeholder="Email" required />
-              </div>
-            </div>
-
-            <div class="form-group">
-              <textarea class="form-control" id="message" rows="6" name="message" placeholder="Ваше Сообщение"></textarea>
-            </div>
-            
-            <div class="form-group">
-              <label for="upload"> Ваш файл:</label>
-              <input type="file" name="upload">
-            </div>
-
-            <div class="form-group">
-              <div class="form-check small">
-                <input type="checkbox" class="form-check-input" name="agreement" id="aggrement" required />
-                <label class="form-check-label" for="aggrement">
-                  Я согласен на обработку и хранение моих персональных данных</label>
-              </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">Отправить сообщение</button>
-            <p id="contact-form-status" class="mt-3"></p>
-          </form>
-
-        </div>
-      </div>
-      <div class="col-lg-6">
-        
-        <div id="map" data-lat=55.752104 data-long=48.744557 data-pin=https://sevocrear.github.io/images/pin.png>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
   </div>
@@ -303,7 +243,7 @@
 					</div>
 					<div class="text-light footer__cta_content">
 						<span>Свяжитесь со мной</span>
-						<h2 class="mb-0">Давайте Начнем Ваш Проект!</h2>
+						<h2 class="mb-0">Давайте Посотрудничаем!</h2>
 					</div>
 					<div class="footer__cta_action">
 						<a class="btn btn-light btn-zoom" href="https://sevocrear.github.io/ru/contact">Связаться</a>
@@ -339,6 +279,8 @@
 										class="fa fa-phone"></i></span></a></li>
 						<li class="mb-2"><a class="text-light" href="mailto:sevocrear@gmail.com"><span class="fa-li"><i
 										class="fa fa-envelope"></i></span>sevocrear@gmail.com</a></li>
+						<li class="mb-2"><a class="text-light" href="tg://resolve?domain=sevocrear"><span class="fa-li"><i
+							class="fa fa-telegram"></i></span>sevocrear</a></li>
 						<li class="mb-2">
 							<span class="fa-li"><i class="fa fa-map-marker"></i></span>420500 Иннополис, Россия</a>
 						</li>
@@ -349,7 +291,7 @@
 		<div class="row footer__footer">
 			<div class="col-lg-6">
 				<div class="footer__footer_copy text-light">
-					<p>All right reserved copyright © Portio 2020</p>
+					<p>All right reserved copyright © Portio 2022</p>
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -375,7 +317,7 @@
 		</div>
 	</div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVD82A8IiQA-F2AeMAacdMtYO_Con5Hy0&libraries=geometry"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=geometry"></script>
 <script src="https://sevocrear.github.io/plugins/jQuery/jquery.min.js"></script>
 <script src="https://sevocrear.github.io/plugins/bootstrap/bootstrap.min.js"></script>
 <script src="https://sevocrear.github.io/plugins/slick/slick.min.js"></script>
