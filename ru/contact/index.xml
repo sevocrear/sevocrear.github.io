@@ -5,10 +5,6 @@
     <link>https://sevocrear.github.io/ru/contact/</link>
     <description>Recent content in Связаться со мной on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://sevocrear.github.io/ru/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://sevocrear.github.io/ru/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

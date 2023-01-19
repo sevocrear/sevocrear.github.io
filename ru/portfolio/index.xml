@@ -6,11 +6,7 @@
     <description>Recent content in Portfolios on sevocrear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sevocrear.github.io/ru/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как определить, спелые ли помидоры</title>
       <link>https://sevocrear.github.io/ru/portfolio/ripe_tomatoes_detection/</link>
