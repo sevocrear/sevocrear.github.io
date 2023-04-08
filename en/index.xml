@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Guardian</title>
+      <link>https://sevocrear.github.io/en/portfolio/tech_trans_safe_zone/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/en/portfolio/tech_trans_safe_zone/</guid>
+      <description>The Guardian contained:
+ OpenCV - to work with computer vision algorithms and cameras PyTorch - framerate for neural networks TensorRT - framework for neural network acceleration (selective) NumPy - a framework for working with arrays Shapely - for polygon shaping ROS2 Galactic (selective) - to provide interconnection between the nodes of the system clearML - for training neural networks, hypothesis testing and metrics estimation RoboFlow, CVAT - for annotation, dataset augmentation  More details can be seen here</description>
+    </item>
+    
+    <item>
       <title>How to determine if tomatoes are ripe</title>
       <link>https://sevocrear.github.io/en/portfolio/ripe_tomatoes_detection/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>

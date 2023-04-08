@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>ПАК &#34;Стражник&#34;</title>
+      <link>https://sevocrear.github.io/ru/portfolio/tech_trans_safe_zone/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sevocrear.github.io/ru/portfolio/tech_trans_safe_zone/</guid>
+      <description>В Стражнике использовались:
+ OpenCV - для работы с алгоритмами компьютерного зрения и камерами PyTorch - фрейморк для нейросетей TensorRT - фреймворк для ускорения нейросетей (выборочно) NumPy - для работы с массивами Shapely - для формирования полигона ROS2 Galactic (выборочно) - для налаживания взаимосвязи между узлами системы clearML - для обучения нейросетей, проверки гипотез и оценки их метрик RoboFlow, CVAT - для аннотация, аугментации датасетов  Подробнее можно посмотреть здесь</description>
+    </item>
+    
+    <item>
       <title>Python: Функции Map и Filter</title>
       <link>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>

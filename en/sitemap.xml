@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sevocrear.github.io/en/portfolio/tech_trans_safe_zone/</loc>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://sevocrear.github.io/ru/portfolio/tech_trans_safe_zone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sevocrear.github.io/en/portfolio/tech_trans_safe_zone/"
+                />
+  </url><url>
     <loc>https://sevocrear.github.io/en/portfolio/ripe_tomatoes_detection/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
     <xhtml:link
