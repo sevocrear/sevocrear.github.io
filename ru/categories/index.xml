@@ -4,7 +4,8 @@
     <title>Categories on sevocrear</title>
     <link>https://sevocrear.github.io/ru/categories/</link>
     <description>Recent content in Categories on sevocrear</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sevocrear.github.io/ru/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <atom:link href="https://sevocrear.github.io/ru/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,69 +4,44 @@
     <title>sevocrear</title>
     <link>https://sevocrear.github.io/ru/</link>
     <description>Recent content on sevocrear</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sevocrear.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 05 May 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sevocrear.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как определить, спелые ли помидоры</title>
       <link>https://sevocrear.github.io/ru/portfolio/ripe_tomatoes_detection/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://sevocrear.github.io/ru/portfolio/ripe_tomatoes_detection/</guid>
-      <description>Датасет был собран, используя изображения из интернета. Всего было собрано 500 изображений, на которых были помидоры. Чтобы увеличить количество изображений, была применена аугментация. Так, я увеличил картинки в 1.5 раз.
-Для аннотирования датасета использовался сервис roboflow:
-Для вывода был написан метод на языке Python и подготовлен GUI.
-Ниже Вы можете увидеть примеры работы программы:</description>
+      <description>Датасет был собран, используя изображения из интернета. Всего было собрано 500 изображений, на которых были помидоры. Чтобы увеличить количество изображений, была применена аугментация. Так, я увеличил картинки в 1.5 раз.&#xA;Для аннотирования датасета использовался сервис roboflow:&#xA;Для вывода был написан метод на языке Python и подготовлен GUI.&#xA;Ниже Вы можете увидеть примеры работы программы:</description>
     </item>
-    
     <item>
       <title>ПАК &#34;Стражник&#34;</title>
       <link>https://sevocrear.github.io/ru/portfolio/tech_trans_safe_zone/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://sevocrear.github.io/ru/portfolio/tech_trans_safe_zone/</guid>
-      <description>В Стражнике использовались:
- OpenCV - для работы с алгоритмами компьютерного зрения и камерами PyTorch - фрейморк для нейросетей TensorRT - фреймворк для ускорения нейросетей (выборочно) NumPy - для работы с массивами Shapely - для формирования полигона ROS2 Galactic (выборочно) - для налаживания взаимосвязи между узлами системы clearML - для обучения нейросетей, проверки гипотез и оценки их метрик RoboFlow, CVAT - для аннотация, аугментации датасетов  Подробнее можно посмотреть здесь</description>
+      <description>В Стражнике использовались:&#xA;OpenCV - для работы с алгоритмами компьютерного зрения и камерами PyTorch - фрейморк для нейросетей TensorRT - фреймворк для ускорения нейросетей (выборочно) NumPy - для работы с массивами Shapely - для формирования полигона ROS2 Galactic (выборочно) - для налаживания взаимосвязи между узлами системы clearML - для обучения нейросетей, проверки гипотез и оценки их метрик RoboFlow, CVAT - для аннотация, аугментации датасетов Подробнее можно посмотреть здесь</description>
     </item>
-    
     <item>
       <title>Python: Функции Map и Filter</title>
       <link>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://sevocrear.github.io/ru/blog/python-map-filter-functions/</guid>
-      <description>Это первый мой пост в блоге, который я пишу. И я сразу хотел бы сказать, зачем и почему я вообще решил вести блог.
-Я приведу пример. Представьте, что Вам нужно найти какую-либо информацию в интернете, литературных источниках и пр. Как правило, Вы не будете ограничиваться лишь одним источником - и всё для того, чтобы подтвердить ее истинность и посмотреть на вопрос с разных сторон. И Вы, возможно конспектируете.
-Идея этого блога для меня - это конспектирование той информации, что я нахожу в интернете во время учебы, выполнения проектов и так далее.</description>
+      <description>Это первый мой пост в блоге, который я пишу. И я сразу хотел бы сказать, зачем и почему я вообще решил вести блог.&#xA;Я приведу пример. Представьте, что Вам нужно найти какую-либо информацию в интернете, литературных источниках и пр. Как правило, Вы не будете ограничиваться лишь одним источником - и всё для того, чтобы подтвердить ее истинность и посмотреть на вопрос с разных сторон. И Вы, возможно конспектируете.&#xA;Идея этого блога для меня - это конспектирование той информации, что я нахожу в интернете во время учебы, выполнения проектов и так далее.</description>
     </item>
-    
     <item>
       <title>MOEX Telegram Бот</title>
       <link>https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://sevocrear.github.io/ru/portfolio/telegram_bot_moex/</guid>
-      <description>Для хранения пользовательских данных (ID) я решил использовать файл * .npy (В дальнейшем стоит использовать MySQL). Также туда заносится индивидуальная максимальная стоимость акций, которые пользователи хотели бы видеть в чате с ботом. Таким образом, идея заключалась в том, чтобы ограничить цену акций для определенных пользователей.
-Пример результата вывода бота вы можете увидеть выше.
-Также следует отметить, что бот может быть развернут на сервере для полной автоматизации.</description>
+      <description>Для хранения пользовательских данных (ID) я решил использовать файл * .npy (В дальнейшем стоит использовать MySQL). Также туда заносится индивидуальная максимальная стоимость акций, которые пользователи хотели бы видеть в чате с ботом. Таким образом, идея заключалась в том, чтобы ограничить цену акций для определенных пользователей.&#xA;Пример результата вывода бота вы можете увидеть выше.&#xA;Также следует отметить, что бот может быть развернут на сервере для полной автоматизации.</description>
     </item>
-    
     <item>
       <title>Форматирование Markdown</title>
       <link>https://sevocrear.github.io/ru/blog/markdown-formatting-demo/</link>
       <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://sevocrear.github.io/ru/blog/markdown-formatting-demo/</guid>
-      <description>This example Markdown file compliments of markdown-it.github.io
- h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules    Typographic replacements Enable typographer option to see result.
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.
-!!!!!! ???? ,, &amp;ndash; &amp;mdash;
-&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;
-Emphasis This is bold text
-This is bold text
-This is italic text</description>
+      <description>This example Markdown file compliments of markdown-it.github.io&#xA;h1 Heading 8-) h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading Horizontal Rules Typographic replacements Enable typographer option to see result.&#xA;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&#xA;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&#xA;!!!!!! ???? ,, &amp;ndash; &amp;mdash;&#xA;&amp;ldquo;Smartypants, double quotes&amp;rdquo; and &amp;lsquo;single quotes&amp;rsquo;&#xA;Emphasis This is bold text&#xA;This is bold text&#xA;This is italic text&#xA;This is italic text</description>
     </item>
-    
   </channel>
 </rss>
