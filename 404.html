@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · Signal lost</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #07090c; --text: #e8edf2; --muted: #8a97a5; --accent: #3cf0ff; }
+    @media (prefers-color-scheme: light) { :root { --bg: #f4f6f8; --text: #0d141b; --muted: #56636f; --accent: #0089a3; } }
+    html, body { height: 100%; margin: 0; }
+    body { display: grid; place-items: center; background: var(--bg); color: var(--text); font: 15px/1.6 "JetBrains Mono", monospace; padding: 16px; box-sizing: border-box; }
+    main { max-width: 520px; }
+    h1 { font-size: 64px; margin: 0; color: var(--accent); letter-spacing: -.02em; }
+    p { color: var(--muted); margin: 8px 0; }
+    a { color: var(--accent); }
+    .c { display: inline-block; width: .55em; height: 1em; background: var(--accent); vertical-align: -.12em; animation: b 1s steps(1) infinite; }
+    @keyframes b { 50% { opacity: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>&gt; track lost · target not found in frame</p>
+    <p>&gt; re-initializing… <a href="/">return to base</a> <span class="c"></span></p>
+  </main>
+</body>
+</html>

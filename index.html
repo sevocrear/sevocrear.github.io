@@ -1,10 +1,411 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>https://sevocrear.github.io/en/</title>
-    <link rel="canonical" href="https://sevocrear.github.io/en/">
-    <meta name="robots" content="noindex">
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=https://sevocrear.github.io/en/">
-  </head>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ilia Sevostianov — Computer Vision Tech Lead</title>
+  <meta name="description" content="Ilia Sevostianov — Computer Vision Tech Lead and Senior CV / Perception Engineer. Robotics, ADAS, Retail. 5.5+ years in production computer vision, 8 years in robotics.">
+  <meta name="author" content="Ilia Sevostianov">
+  <meta name="theme-color" content="#07090c">
+  <link rel="canonical" href="https://sevocrear.github.io/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Ilia Sevostianov — Computer Vision Tech Lead">
+  <meta property="og:description" content="Senior CV / Perception Engineer · Robotics · ADAS · Retail. R&amp;D to production: detection, tracking, lanes, depth — CUDA, TensorRT, ROS2.">
+  <meta property="og:url" content="https://sevocrear.github.io/">
+  <meta property="og:image" content="https://sevocrear.github.io/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script>
+    /* Pick theme before paint to avoid a flash */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (!t) t = window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ilia Sevostianov",
+    "jobTitle": "Computer Vision Tech Lead",
+    "url": "https://sevocrear.github.io/",
+    "image": "https://sevocrear.github.io/assets/img/ilia.webp",
+    "address": { "@type": "PostalAddress", "addressLocality": "Moscow", "addressCountry": "RU" },
+    "alumniOf": ["Innopolis University", "Bauman Moscow State Technical University"],
+    "sameAs": [
+      "https://github.com/sevocrear",
+      "https://www.linkedin.com/in/sevocrear",
+      "https://habr.com/ru/articles/982112/",
+      "https://t.me/ilia_sevostianov"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="#hero" class="logo" aria-label="Ilia Sevostianov — home">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+          <path d="M2 9V2h7M23 2h7v7M30 23v7h-7M9 30H2v-7" fill="none" stroke="currentColor" stroke-width="2"/>
+          <text x="16" y="21" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700" fill="currentColor">IS</text>
+        </svg>
+      </a>
+      <nav class="nav__links" aria-label="Sections">
+        <a href="#summary" data-i18n="nav.summary">Summary</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#achievements" data-i18n="nav.achievements">Achievements</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav__ctrl">
+        <div class="seg" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+        </div>
+        <button type="button" class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="boot wrap" aria-hidden="true"><span id="bootLine"></span><span class="caret"></span></div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero wrap" id="hero">
+      <div class="hero__text">
+        <p class="eyebrow"><span class="dot"></span> <span data-i18n="hero.status">Tracking target · status: online</span></p>
+        <h1 class="hero__name"><span data-i18n="hero.first">Ilia</span><br><span data-i18n="hero.last">Sevostianov</span></h1>
+        <p class="hero__role"><span class="mono accent">&gt;</span> <span id="typed" data-i18n="hero.role">Computer Vision Tech Lead</span><span class="caret"></span></p>
+        <p class="hero__sub" data-i18n="hero.sub">Senior CV / Perception Engineer · Robotics · ADAS · Retail</p>
+        <p class="hero__loc mono">
+          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 22s7-7.1 7-12a7 7 0 1 0-14 0c0 4.9 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></svg>
+          <span data-i18n="hero.loc">Moscow, Russia · open to remote &amp; business travel</span>
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact" data-i18n="hero.cta">Get in touch</a>
+          <a class="btn" href="https://github.com/sevocrear" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn" href="https://habr.com/ru/articles/982112/" target="_blank" rel="noopener">Habr ↗</a>
+        </div>
+      </div>
+
+      <figure class="hud" id="hud">
+        <div class="hud__frame">
+          <img src="/assets/img/ilia.webp" srcset="/assets/img/ilia-480.webp 480w, /assets/img/ilia.webp 900w" sizes="(max-width: 860px) 92vw, 520px" width="900" height="712" alt="Portrait of Ilia Sevostianov">
+          <div class="hud__scan" aria-hidden="true"></div>
+          <svg class="hud__trail" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polyline id="trail" points=""/></svg>
+          <div class="bbox" id="bbox" aria-hidden="true">
+            <span class="bbox__label mono">person · id:07 · <b id="conf">0.99</b></span>
+            <i></i><i></i><i></i><i></i>
+            <span class="bbox__cross"></span>
+          </div>
+          <div class="hud__tl mono" aria-hidden="true">CAM_0 · REC <span class="rec"></span></div>
+          <div class="hud__tr mono" aria-hidden="true"><span id="fps">60</span> FPS</div>
+          <div class="hud__bl mono" aria-hidden="true">TensorRT · <span id="lat">2.1</span> ms</div>
+          <div class="hud__br mono" aria-hidden="true">MOT3D · EKF</div>
+        </div>
+        <figcaption class="hud__cap mono" aria-hidden="true">
+          <span>yolox → mot3d → ros2</span><span id="coords">x:0.53 y:0.27</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ SUMMARY ============ -->
+    <section class="section wrap reveal" id="summary">
+      <h2 class="sec-label mono"><span>01</span> / <span data-i18n="sec.summary">Summary</span></h2>
+      <p class="lead" data-i18n="summary.p1">Computer vision and perception engineer: <b>5.5+ years</b> in production CV and <b>8 years</b> in robotics. My path runs from UAV and railway-safety R&amp;D, through Lead CV Engineer on an automotive ADAS perception platform, to CV Tech Lead of a retail computer vision program at VkusVill.</p>
+      <p class="body" data-i18n="summary.p2">I take R&amp;D into production: detection, tracking, lane and depth models, optimized with CUDA and TensorRT and deployed on ROS2 in Docker. I also run the program around the engineering — requirements, vendor acceptance, hiring and CAPEX planning.</p>
+
+      <div class="metrics">
+        <div class="metric"><span class="metric__v mono" data-count="5.5" data-suffix="+">5.5+</span><span class="metric__k" data-i18n="m.cv">years in production CV</span></div>
+        <div class="metric"><span class="metric__v mono" data-count="8">8</span><span class="metric__k" data-i18n="m.robo">years in robotics</span></div>
+        <div class="metric"><span class="metric__v mono" data-count="0.11" data-prefix="+">+0.11</span><span class="metric__k" data-i18n="m.f1">lane detection F1</span></div>
+        <div class="metric"><span class="metric__v mono" data-count="2" data-prefix="~" data-suffix="×">~2×</span><span class="metric__k" data-i18n="m.inf">faster inference on the fleet</span></div>
+        <div class="metric"><span class="metric__v mono" data-count="3" data-prefix="~" data-suffix="×">~3×</span><span class="metric__k" data-i18n="m.boot">faster system bring-up</span></div>
+        <div class="metric"><span class="metric__v mono" data-count="80" data-prefix="&gt;" data-suffix="%">&gt;80%</span><span class="metric__k" data-i18n="m.cov">test coverage</span></div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section wrap reveal" id="experience">
+      <h2 class="sec-label mono"><span>02</span> / <span data-i18n="sec.experience">Experience</span></h2>
+
+      <ol class="timeline">
+        <li class="job job--now">
+          <div class="job__meta mono"><span data-i18n="j1.date">Mar 2026 — present</span><span data-i18n="j1.loc">Moscow</span></div>
+          <div class="job__card">
+            <h3><span data-i18n="j1.role">Computer Vision Tech Lead, Offline Retail Robotics</span></h3>
+            <p class="job__co">TechVill <span class="muted" data-i18n="j1.co">(VkusVill tech)</span></p>
+            <p data-i18n="j1.lead">I lead the “Transparent Store” CV program: camera-based shelf inventory and basket pre-check at self-checkout.</p>
+            <ul>
+              <li data-i18n="j1.b1">Own the program end-to-end: project passport, system requirements (L0–L2), specs, DoR, roadmap, risk register and acceptance checklists.</li>
+              <li data-i18n="j1.b2">Set the targets: &gt;98% inventory confidence in a lab plus 5 pilot stores; ≥50% fewer stock gaps; ≥80% less inventory labor; ≥95% basket read accuracy (pilot in progress).</li>
+              <li data-i18n="j1.b3">Manage external CV vendors: code reviews, reproducibility checks, stage acceptance audits — including NO-GO / hold decisions.</li>
+            </ul>
+            <details>
+              <summary class="mono" data-i18n="more">more</summary>
+              <ul>
+                <li data-i18n="j1.b4">Built an in-house metric-learning pipeline for SKU retrieval: closed-set, open-set, gallery-based and few-shot.</li>
+                <li data-i18n="j1.b5">Researched produce recognition for self-checkout; built a CCTV lens &amp; coverage calculator and a CAPEX model for a typical store rollout.</li>
+                <li data-i18n="j1.b6">Scoped nearby CV initiatives: anti-shrink, cold chain, café CV, robobarista quality control, inventory robot.</li>
+                <li data-i18n="j1.b7">Hiring: designed vacancies and interview question banks for CV, active-learning, V&amp;V and model-quality roles; wrote a formal performance review.</li>
+                <li data-i18n="j1.b8">Attended NRF APAC Singapore 2026 and wrote a comprehensive trip and vendor report.</li>
+              </ul>
+            </details>
+            <p class="tags mono">metric learning · retail CV · vendor acceptance · CAPEX/ROI</p>
+          </div>
+        </li>
+
+        <li class="job">
+          <div class="job__meta mono"><span data-i18n="j2.date">Nov 2025 — Feb 2026</span><span data-i18n="j1.loc">Moscow</span></div>
+          <div class="job__card">
+            <h3 data-i18n="j2.role">Computer Vision Engineer, Service Robotics</h3>
+            <p class="job__co">Mealty Tech</p>
+            <ul>
+              <li data-i18n="j2.b1">Built Docker infrastructure (CPU/CUDA) and CI for the ROS2 robot workspace; deployed a self-hosted ClearML server and agents.</li>
+              <li data-i18n="j2.b2">Integrated and tuned Nav2 and SLAM Toolbox until the robot navigated stably in a real environment.</li>
+              <li data-i18n="j2.b3">Developed 2D/3D segmentation, depth fusion and 3D object tracking on RealSense.</li>
+            </ul>
+            <details>
+              <summary class="mono" data-i18n="more">more</summary>
+              <ul>
+                <li data-i18n="j2.b4">Built an active-learning node with SAM3 and a vector database — <a href="https://habr.com/ru/articles/982112/" target="_blank" rel="noopener">write-up on Habr ↗</a>.</li>
+                <li data-i18n="j2.b5">Unified sensor, perception and navigation launch files (RealSense / Orbbec): the full robot pipeline starts in one or two steps.</li>
+                <li data-i18n="j2.b6">Technical docs (launch, visual markers, DDS) and team AI-dev tooling: Claude Code and Cursor rules, agents, skills.</li>
+              </ul>
+            </details>
+            <p class="tags mono">ROS2 · Nav2 · SAM3 · RealSense · ClearML</p>
+          </div>
+        </li>
+
+        <li class="job">
+          <div class="job__meta mono"><span data-i18n="j3.date">Jul 2023 — Nov 2025</span><span data-i18n="j3.loc">Naberezhnye Chelny</span></div>
+          <div class="job__card">
+            <h3 data-i18n="j3.role">Lead Computer Vision Engineer</h3>
+            <p class="job__co">KAMA JSC <span class="muted">(Atom EV)</span></p>
+            <p data-i18n="j3.lead">Led the end-to-end perception platform for the vehicle: planning, research, PoC and production rollout.</p>
+            <ul>
+              <li data-i18n="j3.b1">Lane detection: <b>F1 +0.11</b>, fewer lane departures.</li>
+              <li data-i18n="j3.b2">CUDA image processing across the fleet: <b>~2× faster inference</b>, CPU freed for other services.</li>
+              <li data-i18n="j3.b3">Removed redundant transports and introduced docker compose: <b>~3× faster bring-up</b>. Introduced TDD: <b>&gt;80% coverage</b>.</li>
+            </ul>
+            <details>
+              <summary class="mono" data-i18n="more">more</summary>
+              <ul>
+                <li data-i18n="j3.b4">Blind-spot detection MVP on YOLOX with vehicle yaw regression; moved blind-spot and NeuralISP algorithms onto production hardware.</li>
+                <li data-i18n="j3.b5">MOT3D tracker (EKF): fixed a busy-loop, added multi-camera support, reduced false positives.</li>
+                <li data-i18n="j3.b6">Started ClearML pipelines: train → val → test → inference → metrics → conversion → deployment.</li>
+                <li data-i18n="j3.b7">Benchmarked and selected sensors for the production platform; worked with partners and suppliers on specs and bug reviews.</li>
+              </ul>
+            </details>
+            <p class="tags mono">ADAS · lanes · YOLOX · MOT3D · CUDA · TensorRT</p>
+          </div>
+        </li>
+
+        <li class="job">
+          <div class="job__meta mono"><span data-i18n="j4.date">Feb 2021 — Jul 2023</span></div>
+          <div class="job__card">
+            <h3 data-i18n="j4.role">Computer Vision Engineer</h3>
+            <p class="job__co" data-i18n="j4.co">Center for Unmanned Technologies</p>
+            <ul>
+              <li data-i18n="j4.b1">UAV precision landing on LED markers (day and night position and orientation); landing-zone detection.</li>
+              <li data-i18n="j4.b2">LDWS for an electric bus; 360° bird’s-eye view from multiple cameras.</li>
+              <li data-i18n="j4.b3">Camera &amp; LiDAR calibration, sensor fusion, quantization and real-time tracking. IEEE and RSCI papers, 1 patent.</li>
+            </ul>
+            <p class="tags mono">UAV · LDWS · BEV · calibration · fusion</p>
+          </div>
+        </li>
+
+        <li class="job">
+          <div class="job__meta mono"><span data-i18n="j5.date">Mar 2022 — Dec 2022</span><span data-i18n="j5.pt">part-time</span></div>
+          <div class="job__card">
+            <h3 data-i18n="j5.role">Computer Vision Engineer / Team Lead (team of 3)</h3>
+            <p class="job__co">TechTrans</p>
+            <ul>
+              <li data-i18n="j5.b1">Built the prototype of <a href="https://www.techtrans.ru/catalog/4-2-kompleks-otvetstvennogo-tekhnicheskogo-zreniya-strazhnik/" target="_blank" rel="noopener">“Guardian” ↗</a> — a railway worker-safety system that alerts when people cross guarded zones.</li>
+              <li data-i18n="j5.b2">Developed a railway simulator that cut the cost of testing and experiments.</li>
+              <li data-i18n="j5.b3">Detection, tracking, depth &amp; disparity estimation, datasets (ClearML) and project management.</li>
+            </ul>
+            <p class="tags mono">safety · depth · simulation · team lead</p>
+          </div>
+        </li>
+
+        <li class="job job--early">
+          <div class="job__meta mono"><span>2018 — 2020</span></div>
+          <div class="job__card job__card--flat">
+            <h3 data-i18n="j6.role">Earlier</h3>
+            <ul>
+              <li data-i18n="j6.b1"><b>Innopolis University Robotics Lab</b>, intern (2019–20): ball localization for a UR10 arm with a RealSense D435i.</li>
+              <li data-i18n="j6.b2"><b>JBL Robotics</b>, engineering assistant (2018–19): ROS nodes for a barista robot, gripper and cup-stand design.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section wrap reveal" id="skills">
+      <h2 class="sec-label mono"><span>03</span> / <span data-i18n="sec.skills">Core competencies</span></h2>
+      <div class="skills">
+        <div class="skill">
+          <h3 class="mono" data-i18n="s.cv">Computer Vision &amp; ML</h3>
+          <ul class="chips">
+            <li>Object Detection (YOLO, YOLOX)</li><li>Segmentation 2D/3D · SAM/SAM3</li><li>MOT3D · EKF</li><li>Lane Detection</li><li>Metric Learning</li><li>Embedding Retrieval</li><li>Active Learning</li><li>Depth / Disparity</li><li>Bird’s-Eye View</li><li>Sensor Fusion</li><li>Camera &amp; LiDAR Calibration</li><li>Point Clouds (PCL)</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3 class="mono" data-i18n="s.opt">Optimization &amp; Deployment</h3>
+          <ul class="chips"><li>CUDA</li><li>TensorRT</li><li>ONNX</li><li>Quantization</li><li>NCNN</li><li>Edge Inference</li></ul>
+        </div>
+        <div class="skill">
+          <h3 class="mono" data-i18n="s.robo">Robotics</h3>
+          <ul class="chips"><li>ROS / ROS2</li><li>Nav2</li><li>SLAM Toolbox</li><li>DDS</li><li>Intel RealSense</li><li>Orbbec</li><li>CARLA</li><li>HIL / SIL</li></ul>
+        </div>
+        <div class="skill">
+          <h3 class="mono" data-i18n="s.mlops">MLOps &amp; Infrastructure</h3>
+          <ul class="chips"><li>ClearML</li><li>Docker / compose</li><li>CI</li><li>Ansible</li><li>TDD</li><li>ZMQ</li><li>MQTT</li></ul>
+        </div>
+        <div class="skill">
+          <h3 class="mono" data-i18n="s.lang">Languages &amp; Tools</h3>
+          <ul class="chips"><li>Python</li><li>C++</li><li>Bash</li><li>Linux</li><li>Git</li><li>OpenCV</li><li>PyTorch</li><li>TensorFlow</li><li>CVAT</li><li>Roboflow</li><li>FastAPI</li><li>LLM / RAG</li><li>LaTeX</li><li>Claude Code · Cursor</li></ul>
+        </div>
+        <div class="skill">
+          <h3 class="mono" data-i18n="s.lead">Leadership</h3>
+          <ul class="chips">
+            <li data-i18n="s.l1">E2E program ownership</li><li data-i18n="s.l2">Requirements L0–L2</li><li data-i18n="s.l3">Vendor acceptance</li><li data-i18n="s.l4">Hiring &amp; interviews</li><li data-i18n="s.l5">Performance reviews</li><li data-i18n="s.l6">CAPEX / ROI</li><li data-i18n="s.l7">Roadmaps &amp; risk</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section wrap reveal" id="projects">
+      <h2 class="sec-label mono"><span>04</span> / <span data-i18n="sec.projects">Products &amp; open source</span></h2>
+      <p class="body" data-i18n="p.intro">Independent products and freelance since 2020 — shipped and monetized.</p>
+      <div class="cards">
+        <article class="card">
+          <p class="card__k mono" data-i18n="p.contract">contract · 2026</p>
+          <h3>docru</h3>
+          <p data-i18n="p.docru">Document-translation service in production. OCR on PDFs, Word files and photos → PDF with the original layout plus an editable DOCX, with GPU job queueing.</p>
+          <p class="tags mono">OCR · GPU queue · production</p>
+        </article>
+        <article class="card">
+          <p class="card__k mono" data-i18n="p.contract">contract · 2026</p>
+          <h3>Unity VR viewer</h3>
+          <p data-i18n="p.vr">Standalone Pico 4 app showing an industrial hangar with CAD equipment: CAD-to-LOD simplification pipeline and on-device performance tuning.</p>
+          <p class="tags mono">Unity · VR · Pico 4 · LOD</p>
+        </article>
+        <a class="card card--link" href="https://github.com/sevocrear/rosboard" target="_blank" rel="noopener">
+          <p class="card__k mono">open source ↗</p>
+          <h3>rosboard</h3>
+          <p data-i18n="p.rosboard">ROS web visualizer: maps, teleop, layouts — your robot becomes a web server for its topics.</p>
+          <p class="tags mono">JavaScript · ROS</p>
+        </a>
+        <a class="card card--link" href="https://github.com/sevocrear/disk-cleaner" target="_blank" rel="noopener">
+          <p class="card__k mono">open source ↗</p>
+          <h3>Disk Cleaner</h3>
+          <p data-i18n="p.disk">Ubuntu disk cleaner with GUI + CLI: frees space from Docker, caches, old files, duplicates and trash.</p>
+          <p class="tags mono">Rust · Ubuntu</p>
+        </a>
+        <a class="card card--link" href="https://github.com/sevocrear/ChangeYourWalls" target="_blank" rel="noopener">
+          <p class="card__k mono">open source ↗</p>
+          <h3>ChangeYourWalls</h3>
+          <p data-i18n="p.walls">Repaints the walls in a photo by a given pattern — a helper for your interior update.</p>
+          <p class="tags mono">Python · CV · ★ 22</p>
+        </a>
+        <a class="card card--link" href="https://github.com/sevocrear/restore-workspaces-ubuntu" target="_blank" rel="noopener">
+          <p class="card__k mono">open source ↗</p>
+          <h3>restore-workspaces-ubuntu</h3>
+          <p data-i18n="p.ws">Restore your Ubuntu workspace with ease.</p>
+          <p class="tags mono">Shell · Ubuntu</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section wrap reveal" id="achievements">
+      <h2 class="sec-label mono"><span>05</span> / <span data-i18n="sec.achievements">Achievements &amp; publications</span></h2>
+      <ul class="ach">
+        <li><span class="ach__y mono">2020</span><span data-i18n="a.aerobot">🥇 <b>1st place, Aerobot 2020</b> drone competition — line following and landing-pad detection on ROS.</span></li>
+        <li><span class="ach__y mono">IEEE</span><span data-i18n="a.ieee">Tripteron stiffness — <a href="https://ieeexplore.ieee.org/document/9290208" target="_blank" rel="noopener">ieeexplore 9290208 ↗</a></span></li>
+        <li><span class="ach__y mono">AIP · RSCI</span><span data-i18n="a.papers">Vertical walking robot simulation (AIP), RSCI papers and <b>1 patent</b>.</span></li>
+        <li><span class="ach__y mono">2021</span><span data-i18n="a.inno21">Innopolis University award for contribution to science.</span></li>
+        <li><span class="ach__y mono">2020</span><span data-i18n="a.inno20">Innopolis University award for academic excellence.</span></li>
+        <li><span class="ach__y mono">2018</span><span data-i18n="a.bmstu">Best student of the Robotics Department, Bauman MSTU.</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section wrap reveal" id="education">
+      <h2 class="sec-label mono"><span>06</span> / <span data-i18n="sec.education">Education</span></h2>
+      <div class="edu">
+        <div class="edu__item">
+          <p class="mono muted">2019 — 2021</p>
+          <h3 data-i18n="e.msc">MSc, Computer Science (Robotics &amp; Computer Vision)</h3>
+          <p data-i18n="e.msc.u">Innopolis University · thesis: dynamic walking of a quadruped robot</p>
+        </div>
+        <div class="edu__item">
+          <p class="mono muted">2015 — 2019</p>
+          <h3 data-i18n="e.bsc">BSc, Robotics &amp; Mechatronics</h3>
+          <p data-i18n="e.bsc.u">Bauman Moscow State Technical University · thesis: vertical walking robot with vacuum cups</p>
+        </div>
+        <div class="edu__item">
+          <p class="mono muted" data-i18n="e.cert.k">certifications</p>
+          <h3 data-i18n="e.dl">Deep Learning Specialization — DeepLearning.AI</h3>
+          <p data-i18n="e.cert">All 5 courses (2021–22) · C++ Developer Specialization, one year (2022–23)</p>
+        </div>
+        <div class="edu__item">
+          <p class="mono muted" data-i18n="e.lang.k">languages</p>
+          <h3 data-i18n="e.lang">Russian — native · English — B2</h3>
+          <p data-i18n="e.lic">Driving license, category B</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section wrap reveal" id="contact">
+      <h2 class="sec-label mono"><span>07</span> / <span data-i18n="sec.contact">Contact</span></h2>
+      <div class="term">
+        <div class="term__bar mono"><i></i><i></i><i></i><span>ilia@perception:~</span></div>
+        <div class="term__body mono">
+          <p><span class="accent">$</span> contact --ilia</p>
+          <p class="muted" data-i18n="c.hint"># Moscow · open to remote and business travel</p>
+          <dl>
+            <dt>email</dt><dd><a href="mailto:sevocrear@gmail.com">sevocrear@gmail.com</a></dd>
+            <dt>email</dt><dd><a href="mailto:sevocrear@yandex.ru">sevocrear@yandex.ru</a></dd>
+            <dt>telegram</dt><dd><a href="https://t.me/ilia_sevostianov" target="_blank" rel="noopener">@ilia_sevostianov</a></dd>
+            <dt>linkedin</dt><dd><a href="https://www.linkedin.com/in/sevocrear" target="_blank" rel="noopener">in/sevocrear</a></dd>
+            <dt>github</dt><dd><a href="https://github.com/sevocrear" target="_blank" rel="noopener">sevocrear</a></dd>
+            <dt>habr</dt><dd><a href="https://habr.com/ru/articles/982112/" target="_blank" rel="noopener">habr.com/ru/articles/982112</a></dd>
+          </dl>
+          <p><span class="accent">$</span> <span class="caret"></span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot wrap mono">
+    <span>© 2026 Ilia Sevostianov</span>
+    <a href="#top" data-i18n="foot.top">↑ back to top</a>
+  </footer>
+
+  <script src="/assets/js/i18n.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+</body>
 </html>
